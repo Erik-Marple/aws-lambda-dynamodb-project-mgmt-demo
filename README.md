@@ -2,7 +2,7 @@
 
 ## Serverless Template
 
-* Patterned off of Serverless example, [aws-dotnet-rest-api-with-dynamodb]('https://github.com/serverless/examples/tree/master/aws-dotnet-rest-api-with-dynamodb'), in Github.
+* Patterned off of Serverless example, [aws-dotnet-rest-api-with-dynamodb](https://github.com/serverless/examples/tree/master/aws-dotnet-rest-api-with-dynamodb), in Github.
 
 ## Key Configuration Elements
 
