@@ -1,0 +1,19 @@
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.deps.json
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.runtimeconfig.json
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.runtimeconfig.dev.json
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.dll
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.pdb
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Debug\netcoreapp2.1\ProjectMgmtLambda.AssemblyInfoInputs.cache
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Debug\netcoreapp2.1\ProjectMgmtLambda.AssemblyInfo.cs
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Debug\netcoreapp2.1\ProjectMgmtLambda.dll
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Debug\netcoreapp2.1\ProjectMgmtLambda.pdb
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Debug\netcoreapp2.1\ProjectMgmtLambda.csprojAssemblyReference.cache
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.deps.json
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.runtimeconfig.json
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.runtimeconfig.dev.json
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.dll
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Debug\netcoreapp2.1\ProjectMgmtLambda.pdb
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\obj\Debug\netcoreapp2.1\ProjectMgmtLambda.AssemblyInfoInputs.cache
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\obj\Debug\netcoreapp2.1\ProjectMgmtLambda.AssemblyInfo.cs
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\obj\Debug\netcoreapp2.1\ProjectMgmtLambda.dll
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\obj\Debug\netcoreapp2.1\ProjectMgmtLambda.pdb

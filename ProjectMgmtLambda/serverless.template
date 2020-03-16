@@ -1,0 +1,136 @@
+{
+	"AWSTemplateFormatVersion" : "2010-09-09",
+	"Transform" : "AWS::Serverless-2016-10-31",
+	"Description" : "An AWS Serverless Application.",
+
+	"Globals": {
+		"Api": {
+			"Cors": {
+				"AllowMethods": "'GET,POST,PUT'",
+				"AllowHeaders": "'*'",
+				"AllowOrigin": "'*'"
+			}
+		}
+	},
+
+	"Resources" : {
+
+		"GetAll" : {
+			"Type" : "AWS::Serverless::Function",
+			"Properties": {
+				"FunctionName": "ProjectMgmtLambdaGetAll",
+				"Handler": "ProjectMgmtLambda::ProjectMgmtLambda.Functions.GetAllRequestFunction::RunAsync",
+				"Runtime": "dotnetcore2.1",
+				"CodeUri": "",
+				"MemorySize": 128,
+				"Timeout": 30,
+				"Role": null,
+				"Policies": [ "AWSLambdaFullAccess" ],
+				"Events": {
+					"RootGetAll": {
+						"Type": "Api",
+						"Properties": {
+							"Path": "/",
+							"Method": "GET"							
+						}
+					}
+				}
+			}
+		},
+		"Get" : {
+			"Type" : "AWS::Serverless::Function",
+			"Properties": {
+				"FunctionName": "ProjectMgmtLambdaGet",
+				"Handler": "ProjectMgmtLambda::ProjectMgmtLambda.Functions.GetRequestFunction::RunAsync",
+				"Runtime": "dotnetcore2.1",
+				"CodeUri": "",
+				"MemorySize": 128,
+				"Timeout": 30,
+				"Role": null,
+				"Policies": [ "AWSLambdaFullAccess" ],
+				"Events": {
+					"RootGetAll": {
+						"Type": "Api",
+						"Properties": {
+							"Path": "/{requestId}",
+							"Method": "GET"							
+						}
+					}
+				}
+			}
+		},
+		"Create" : {
+			"Type" : "AWS::Serverless::Function",
+			"Properties": {
+				"FunctionName": "ProjectMgmtLambdaCreate",
+				"Handler": "ProjectMgmtLambda::ProjectMgmtLambda.Functions.CreateRequestFunction::RunAsync",
+				"Runtime": "dotnetcore2.1",
+				"CodeUri": "",
+				"MemorySize": 128,
+				"Timeout": 30,
+				"Role": null,
+				"Policies": [ "AWSLambdaFullAccess" ],
+				"Events": {            
+					"RootPost": {
+						"Type": "Api",
+						"Properties": {
+							"Path": "/",
+							"Method": "POST"
+						}
+					}
+				}
+			}
+		},
+		"Update" : {
+			"Type" : "AWS::Serverless::Function",
+			"Properties": {
+				"FunctionName": "ProjectMgmtLambdaUpdate",
+				"Handler": "ProjectMgmtLambda::ProjectMgmtLambda.Functions.UpdateRequestFunction::RunAsync",
+				"Runtime": "dotnetcore2.1",
+				"CodeUri": "",
+				"MemorySize": 128,
+				"Timeout": 30,
+				"Role": null,
+				"Policies": [ "AWSLambdaFullAccess" ],
+				"Events": {
+					"RootGetAll": {
+						"Type": "Api",
+						"Properties": {
+							"Path": "/{requestId}",
+							"Method": "PUT"							
+						}
+					}
+				}
+			}
+		},
+		"ChangeRequestDynamoDBTable": {
+			"Type": "AWS::DynamoDB::Table",
+			"Properties": {
+				"TableName": "ChangeRequest",
+				"AttributeDefinitions": [
+					{
+						"AttributeName": "RequestId",
+						"AttributeType": "S"
+					}
+				],
+				"KeySchema": [
+					{
+						"AttributeName" : "RequestId",
+						"KeyType" : "HASH"
+					}
+				],
+				"ProvisionedThroughput" : {
+					"ReadCapacityUnits" : "1",
+					"WriteCapacityUnits" : "1"
+				}
+			}
+		}
+	},
+
+	"Outputs" : {
+		"ApiURL" : {
+			"Description" : "API endpoint URL for Prod environment",
+			"Value" : { "Fn::Sub" : "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/" }
+		}
+	}
+}

@@ -1,0 +1,20 @@
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.deps.json
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.runtimeconfig.json
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.runtimeconfig.dev.json
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.dll
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.pdb
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.csprojAssemblyReference.cache
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.AssemblyInfoInputs.cache
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.AssemblyInfo.cs
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.dll
+C:\Users\254634\source\Scratch\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.pdb
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.deps.json
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.runtimeconfig.json
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.runtimeconfig.dev.json
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.dll
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.pdb
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.csprojAssemblyReference.cache
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.AssemblyInfoInputs.cache
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.AssemblyInfo.cs
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.dll
+C:\Users\Erik Marple\Desktop\project-mgmt-lambda\ProjectMgmtLambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\ProjectMgmtLambda.pdb
